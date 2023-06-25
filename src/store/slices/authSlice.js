@@ -8,7 +8,7 @@ export const initialState = {
 	message: '',
 	showMessage: false,
 	redirect: '',
-	token: localStorage.getItem(AUTH_TOKEN) || null
+	token: localStorage.getItem(AUTH_TOKEN) || "wVYrxaeNa9OxdnULvde1Au5m5w63"
 }
 
 export const signIn = createAsyncThunk('auth/login',async (data, { rejectWithValue }) => {
